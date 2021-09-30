@@ -18,13 +18,13 @@ const LinkRenderer = ({ ...children }) => <Link {...children} />;
 const About = () => (
   <Main
     title="About"
-    description="Learn about Michael D'Angelo"
+    description="Learn about Teemu Näsänen"
   >
     <article className="post markdown" id="about">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
-          <p>(in about {count} words)</p>
+          <p>(in {count} words)</p>
         </div>
       </header>
       <ReactMarkdown

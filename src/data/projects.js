@@ -1,47 +1,47 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'My first website',
+    subtitle: '2019 My first website',
+    link: 'https://affectionate-hermann-5442da.netlify.app/index.html',
+    image: '/images/projects/firstpage.jpg',
+    date: '2019-12-9',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Website Development-course 2019. '
+      + 'The first steps into the world of HTML and CSS. Netlify deploys from Github. '
+      + 'The page has not been updated.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: "Laurea's student project and India exchange",
+    subtitle: "Participated in Laurea's student project and India exchange",
+    image: '/images/projects/intia.jpg',
+    date: '2020-02-10',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'I had a great opportunity to take part in a project to find IT solutions '
+      + 'for Epilepsy and Autism in collaboration with Chennai students in India. '
+      + 'During the week’s trip to India, I learned a lot, as well as preparing for the project as a group. '
+      + 'Unfortunately, a global pandemic interrupted the project before Chennai students visited Finland.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Finnkino Movies search',
+    subtitle: 'Finnkino movies API search.',
+    link: 'https://finnkino-jquery.netlify.app/',
+    image: '/images/projects/finnkino.jpg',
+    date: '2020-12-12',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'JavaScript-course project task where I am using Finnkino Movies API, JavaScript and jQuery. '
+      + 'During developing I had some problems because theaters were closed, but fortunately atleast some cities '
+      + 'continued creating data for API.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Pixabay feat. Teemu',
+    subtitle: 'Node.js project on templates',
+    link: 'https://node-pixabay.herokuapp.com/',
+    image: '/images/projects/pixabay.jpg',
+    date: '2021-03-19',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Small Node.js Image finder project using Pixabay API on JavaScript-course 2021. '
+      + 'Heroku deploys from Github. **API, JSON, Express, EJS, Node.js, JavaScript...**',
   },
 ];
 

@@ -5,27 +5,27 @@ import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
+import Volunteer from '../components/Resume/Volunteer';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
-
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
+import volunteerings from '../data/resume/volunteerings';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
   'Education',
   'Experience',
+  'Volunteer',
   'Skills',
   'Courses',
-  'References',
 ];
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Teemu Näsänen's Resume."
   >
     <article className="post" id="resume">
       <header>
@@ -37,15 +37,13 @@ const Resume = () => (
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>))}
           </div>
-
         </div>
       </header>
       <Education data={degrees} />
       <Experience data={positions} />
+      <Volunteer data={volunteerings} />
       <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
-      <References />
-
     </article>
   </Main>
 );

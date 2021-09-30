@@ -3,11 +3,17 @@
 .markdown {
 
   p {
-    margin: auto;
+    margin: auto; 
   }
 
   h1 {
     font-size: .8em;
     margin-top: 3em;
+  }
+
+  blockquote {
+    p {
+    padding-bottom: 2em;
+    }
   }
 }

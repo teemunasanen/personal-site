@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://teemunasanen.com/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/teemunasanen/personal-site.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
@@ -21,13 +21,16 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "0.1.14",
+    "bootstrap": "^5.1.0",
     "dayjs": "^1.10.4",
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "raw.macro": "^0.4.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^2.0.0-beta.6",
     "react-burger-menu": "^3.0.3",
+    "react-collapsible": "^2.8.4",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
     "react-helmet-async": "^1.0.7",
