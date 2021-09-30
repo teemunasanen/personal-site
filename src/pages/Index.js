@@ -10,7 +10,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">Welcome</Link></h2>
+          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
           <p> This is my personal website. Please feel free to read more <Link to="/about">about me</Link>,
             or you can check out my {' '}
             <Link to="/resume">resume</Link>, {' '}
@@ -20,7 +20,7 @@ const Index = () => (
           <p> Source available <a href="https://github.com/teemunasanen/personal-site">here</a>.</p>
         </div>
       </header>
-      <h3>About this site</h3>
+      <h3>Welcome</h3>
       <figure>
         <em>
           A beautiful, responsive, statically-generated,

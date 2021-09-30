@@ -4,7 +4,7 @@ const data = [
     title: 'My first website',
     subtitle: '2019 My first website',
     link: 'https://affectionate-hermann-5442da.netlify.app/index.html',
-    image: '/images/projects/firstpage.JPG',
+    image: '',
     date: '2019-12-9',
     desc:
       'Website Development-course 2019. '
@@ -26,7 +26,7 @@ const data = [
     title: 'Finnkino Movies search',
     subtitle: 'Finnkino movies API search.',
     link: 'https://finnkino-jquery.netlify.app/',
-    image: '/images/projects/finnkino.JPG',
+    image: '',
     date: '2020-12-12',
     desc:
       'JavaScript-course project task where I am using Finnkino Movies API, JavaScript and jQuery. '
@@ -37,7 +37,7 @@ const data = [
     title: 'Pixabay feat. Teemu',
     subtitle: 'Node.js project on templates',
     link: 'https://node-pixabay.herokuapp.com/',
-    image: '/images/projects/pixabay.JPG',
+    image: '',
     date: '2021-03-19',
     desc:
       'Small Node.js Image finder project using Pixabay API on JavaScript-course 2021. '
