@@ -14,7 +14,7 @@ const data = [
   {
     title: "Laurea's student project and India exchange",
     subtitle: "Participated in Laurea's student project and India exchange",
-    image: '/images/projects/intia.jpg',
+    image: '/images/projects/intia2.jpg',
     date: '2020-02-10',
     desc:
       'I had a great opportunity to take part in a project to find IT solutions '
