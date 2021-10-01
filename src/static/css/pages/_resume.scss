@@ -70,6 +70,7 @@
 	}
 
 	.course-info {
+		white-space: nowrap;
 		letter-spacing: 0.20em;
 		text-transform: uppercase;
 		padding-left: 1.0em;
@@ -203,5 +204,9 @@
 		}
 		.course-container a{
 			display: block;
+		}
+		.course-info {
+			padding-left: 0 !important;;
+			padding-right: 0 !important;;
 		}
 	}

@@ -29,8 +29,8 @@ const Courses = ({ data }) => (
       <p>Course information in Finnish or English depending on the course language.</p>
     </div>
     <div className="course-info-container">
-      <span className="course-info">Courses: {data.length}</span>
-      <span className="course-info">Credits: {courseCredits(data)}</span>
+      <span className="course-info">Courses: {data.length} </span>
+      <span className="course-info">Credits: {courseCredits(data)} </span>
       <span className="course-info">Grade Point Average: {gpa(data)}</span>
     </div>
     <ul className="course-list">
