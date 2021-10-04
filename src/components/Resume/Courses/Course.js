@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Collapsible from 'react-collapsible';
+import { faArrowAltCircleDown } from '@fortawesome/free-regular-svg-icons/faArrowAltCircleDown';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+const Icon = <FontAwesomeIcon icon={faArrowAltCircleDown} />;
 
 const Trigger = (data) => (
   <header className="header">
     <h4>{data.title}</h4>
-    <p className="daterange">Credits: {data.credits} - Grade: {data.grade}</p>
+    <div className="header-icon">
+      <p className="daterange">Credits: {data.credits} - Grade: {data.grade} {Icon}</p>
+    </div>
   </header>
 );
 

@@ -80,8 +80,14 @@
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.9em;
 	}
-
-
+	.header-icon {
+		display: inline-flex;
+	}
+	.svg-inline--fa {
+		font-size: 1.5em;
+		margin-left: 1.0em;
+	}
+	
 
 	.Collapsible__contentInner {
 		padding-left: 2.0em;
@@ -139,7 +145,12 @@
 		background-color: transparent;
 			color: _palette(fg-bold) !important;
 			cursor: pointer;
-			
+
+			&.is-open {
+				.svg-inline--fa {
+					transform: rotateZ(180deg);	
+				}
+			}
 
 			&:hover {
 				box-shadow: inset 0 0 0 1px _palette(accent);
@@ -147,6 +158,7 @@
 
 				&:active {
 					background-color: transparentize(_palette(accent), 0.95);
+					
 				}
 			}
 
@@ -163,6 +175,7 @@
 			&:after {
 				left: 1em;
 				padding: 0 0.75em 0 0;
+				
 			}
 
 			&.fit {
@@ -192,21 +205,21 @@
 		}
 
 
-	.course-dot {
-		display: inline;
-		// display: none;
-	}
-
-	@include breakpoint(small) {
 		.course-dot {
-			display: none;
+			display: inline;
+			// display: none;
 		}
-		.course-container a{
-			display: block;
+
+		@include breakpoint(small) {
+			.course-dot {
+				display: none;
+			}
+			.course-container a{
+				display: block;
+			}
+			.course-info {
+				display: inline-block;
+				padding-left: 0.5em !important;;
+				padding-right: 0.5em !important;;
+			}
 		}
-		.course-info {
-			display: inline-block;
-			padding-left: 0.5em !important;;
-			padding-right: 0.5em !important;;
-		}
-	}
