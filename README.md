@@ -1,5 +1,13 @@
 # Teemu Näsänen Personal Website 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+See: [teemunasanen.com](https://teemunasanen.com)
+
+My personal website. Built on [Michael D'Angelo's open source project](https://github.com/mldangelo/personal-site). Site is deployed on [Netlify](https://www.netlify.com/) instead of [Github Pages](https://pages.github.com/).
+
+Thank you Michael D'Angelo for the excellent instructions and the elegant implementation. I learned a lot with the project and managed to build a functional personal-site with a touch of my own.
+
+
+---------------------------------------------------
 # Personal Website
 
 See: [mldangelo.com](https://mldangelo.com).
