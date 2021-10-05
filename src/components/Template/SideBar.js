@@ -31,7 +31,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Teemu Näsänen <Link to="/">teemunasanen.com</Link>.</p>
+      <p className="copyright">&copy; Teemu Näsänen 2021 <Link to="/">teemunasanen.com</Link>.</p>
     </section>
   </section>
 );
