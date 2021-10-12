@@ -11,7 +11,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://fi.linkedin.com/in/teemu-n%C3%A4s%C3%A4nen-799968196',
+    link: 'https://fi.linkedin.com/in/teemunasanen/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
