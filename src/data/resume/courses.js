@@ -334,6 +334,15 @@ const courses = [
       'Arvioida omia oppimisen valmiuksiaan sekä rooliaan tiimissä.',
     ],
   },
+  {
+    title: 'PHP-ohjelmointi',
+    grade: 'Suoritettu',
+    credits: 3,
+    points: [
+      'Käyttää ohjelmointikielen perussyntaksia ja rakenteita.',
+      'Suunnitella, toteuttaa ja testata pienimuotoisia ohjelmia.',
+    ],
+  },
 ];
 
 export default courses;
