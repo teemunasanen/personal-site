@@ -343,6 +343,16 @@ const courses = [
       'Suunnitella, toteuttaa ja testata pienimuotoisia ohjelmia.',
     ],
   },
+  {
+    title: 'Microsoft Azure Fundamentals',
+    grade: 'Suoritettu',
+    credits: 3,
+    points: [
+      'After completing this course, students will be able to understand general cloud computing concepts and core services provided by Microsoft Azure.',
+      'This course will provide basic level knowledge of cloud services and how those services are provided with Microsoft Azure.',
+      'The course will cover general concepts about cloud computing and introduce different cloud computing models.',
+    ],
+  },
 ];
 
 export default courses;
