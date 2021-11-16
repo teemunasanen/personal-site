@@ -6,8 +6,8 @@ const degrees = [
     year: 2019,
   },
   {
-    school: 'Apollo School in Helsinki',
-    degree: 'High School',
+    school: 'Apollon Yhteiskoulu',
+    degree: 'General Upper Secondary School, Matriculation Examination',
     link: 'https://www.apollonyhteiskoulu.fi',
     year: 2003,
   },

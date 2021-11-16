@@ -5,8 +5,9 @@ const volunteerings = [
     link: 'https://hjk.fi',
     daterange: 'April 2019 - Present',
     points: [
-      "I've been playing football for as long as I can remember, and it is at least 30 years.",
-      'I had a great opportunity to share my knowledge of playing football with future players when my son started with Hjk.',
+      'As the coach of the football team since the start of the 2013 age group team.',
+      'Teaching players to play football and how to act as a team member.',
+      'Cooperation with team staff',
     ],
   },
   {
@@ -15,7 +16,10 @@ const volunteerings = [
     link: 'https://www.helsinginjokerit.com',
     daterange: 'September 2020 - Present',
     points: [
-      'I help young hockey players as an equipment manager.',
+      'As the equipment manager of the ice hockey team since the start of the 2014 age group team',
+      'Maintenance of players and club equipment',
+      'Teaching players to play football and how to act as a team member.',
+      'Cooperation with team staff',
     ],
   },
 ];

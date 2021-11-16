@@ -19,7 +19,7 @@ const skills = [
   },
   {
     title: 'Heroku',
-    competency: 1,
+    competency: 2,
     category: ['Web Development', 'Tools'],
   },
   {
@@ -29,7 +29,7 @@ const skills = [
   },
   {
     title: 'SQL',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
@@ -84,7 +84,7 @@ const skills = [
   },
   {
     title: 'UX/UI',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Mobile Development'],
   },
   {
@@ -99,13 +99,13 @@ const skills = [
   },
   {
     title: 'Netlify',
-    competency: 1,
+    competency: 2,
     category: ['Tools'],
   },
   {
     title: 'PHP',
     competency: 2,
-    category: ['Languages'],
+    category: ['Languages', 'Web Development'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
