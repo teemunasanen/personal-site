@@ -327,11 +327,15 @@ const courses = [
   {
     title: 'Urasuunnittelu',
     grade: 'Suoritettu',
-    credits: 2,
+    credits: 4,
     points: [
       'Suunnitella omia opintojaan ja ammatillista kehittymistään urasuunnittelun ja työelämän näkökulmasta.',
       'Käyttää erilaisia oppimismenetelmiä ja työkaluja opintojen tukena menestyksellisesti.',
       'Arvioida omia oppimisen valmiuksiaan sekä rooliaan tiimissä.',
+      'Kehittää itseään ammattialansa osaajana sekä suunnitella omaa uraansa.',
+      'Kuvata osaamistaan portfolion ja työnhakuasiakirjojen avulla.',
+      'Tunnistaa olemassa olevat uramahdollisuudet kansainvälistyvillä työmarkkinoilla.',
+      'Verkostoitua muiden alan toimijoiden kanssa sekä ymmärtää verkostonsa ja verkostoyhteistyön mahdollisuudet.',
     ],
   },
   {
