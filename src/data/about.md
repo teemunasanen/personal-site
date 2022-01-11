@@ -17,4 +17,3 @@ I am on study leave from warehouse work and I am studying Business Information T
 >
 > #### My Self
 > Especially good food gets my attention. I like cooking and eating and I think that food can be more than just a fuel. 
->
